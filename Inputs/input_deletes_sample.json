@@ -1,0 +1,27 @@
+{
+	"connection_key": "requests",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 201,
+	"service_label": "PRICE_MASTER",
+	"api_type": "deletes",
+	"PriceMaster": {
+		"SupplyChainRelationshipID": 100000000,
+		"Buyer": 101,
+		"Seller": 201,
+		"ConditionRecord": 584,
+		"ConditionSequentialNumber": 1,
+		"Product": "A4906",
+		"ConditionValidityStartDate": "2023-01-01",
+		"ConditionValidityEndDate": "2023-12-31",
+		"IsMarkedForDeletion": true
+	},
+	"api_schema": "DPFMPriceMasterDeletes",
+	"accepter": [
+		"PriceMaster"
+	],
+	"deleted": false
+}
