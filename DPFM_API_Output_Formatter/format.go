@@ -21,6 +21,7 @@ func ConvertToPriceMaster(rows *sql.Rows) (*PriceMaster, error) {
 			&priceMaster.Product,
 			&priceMaster.ConditionValidityStartDate,
 			&priceMaster.ConditionValidityEndDate,
+			&priceMaster.IsMarkedForDeletion,
 		)
 		if err != nil {
 			fmt.Printf("err = %+v \n", err)
